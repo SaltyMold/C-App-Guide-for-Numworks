@@ -10,20 +10,24 @@
     <img alt="Written In" src="https://img.shields.io/badge/Written%20In-C-yellow?style=flat-square">
 </p>
 
-_This repo is a Guide to help you to Create a C App for the Numworks Calculator._
+_This repo is a Guide to help you to Create a C App for the Numworks Calculator. You can also follow my YouTube video for additional guidance._
 
 ## Download requirements
 
-For **Windows**, download the latest **`MSYS2-Numworks.zip` file** from the **[Releases](https://github.com/SaltyMold/C-App-Guide-for-Numworks/releases) page**, or install everything manually using the instructions below.  
-For **Linux**, you must install everything manually using the instructions below.  
+For **Windows**, download the latest **`MSYS2-Numworks.zip`** file from the **[Releases](https://github.com/SaltyMold/C-App-Guide-for-Numworks/releases) page**. Extract the ZIP, launch `msys2.exe`, navigate to the installation directory, then go to `/home` and copy everything from the `Default` User into your User directory. Finally, run the following commands in MSYS2 :  
+```sh
+./set-variable
+cd numworks
+make clean && make build
+
+# You should now have a output/app.nwa file that you can distribute! Anyone can now install it on their calculator from the NumWorks online uploader : https://my.numworks.com/apps.
+```
+Alternatively, for **Windows** you can install everything manually using the instructions below.
+
+For **Linux**, you must install everything manually using the instructions below.
 
 ## Build your own app
 
-To build your own app, start by cloning the repository:
-
-```sh
-git clone https://github.com/SaltyMold/C-App-Guide-for-Numworks.git
-```
 Inside the project, you'll find **`eadk.h`**, which provides **essential functions** for interacting with the **[calculator](https://en.wikipedia.org/wiki/NumWorks)**. Modify **`main.c`** to implement your **own code**.
 Additionally, make sure to include an **`icon.png`** with dimensions **55×56 pixels** to serve as your **app’s icon**. Once your modifications are done, link the app with **[nwlink](https://www.npmjs.com/package/nwlink)** and enjoy your app!
 
