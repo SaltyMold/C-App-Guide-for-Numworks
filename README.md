@@ -14,7 +14,7 @@ _This repo is a Guide to help you to Create a C App for the Numworks Calculator.
 
 ## Download requirements
 
-For **Windows**, download the latest **`MSYS2-Numworks.zip`** file from the **[Releases](https://github.com/SaltyMold/C-App-Guide-for-Numworks/releases) page**. Extract the ZIP, launch `msys2.exe`, navigate to the installation directory, then go to `/home` and copy everything from the `Default` User into your User directory. Finally, run the following commands in MSYS2 :  
+For **Windows**, download the latest **`MSYS2-Numworks.zip`** file from the **[Releases](https://github.com/SaltyMold/C-App-Guide-for-Numworks/releases) page**. Extract the ZIP, launch `msys2.exe` and close it, navigate to the installation directory with file manager, then go to `/home` and copy everything from the `Default` user into your user directory. Finally reopen the app and run the following commands in MSYS2 :  
 ```sh
 ./set-variable
 cd numworks
