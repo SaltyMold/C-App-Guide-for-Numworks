@@ -21,6 +21,8 @@ make clean && make build
 
 # You should now have a output/app.nwa file that you can distribute! Anyone can now install it on their calculator from the NumWorks online uploader : https://my.numworks.com/apps.
 ```
+If you move the **MSYS2** folder to another location, compilation will no longer work. To fix this, run `./set-variable` in `~` inside MSYS2.
+
 Alternatively, for **Windows** you can install everything manually using the instructions below.
 
 For **Linux**, you must install everything manually using the instructions below.
