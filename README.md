@@ -35,6 +35,14 @@ Additionally, make sure to include an **`icon.png`** with dimensions **55×56 pi
 
 ## Download requirements manually
 
+### Requirements:
+
+- **arm-none-eabi-gcc**
+- **nodejs 18.20.7 (install n for 18.20.7 version)**
+- **nwlink (with npm)**
+- **make 4.3**
+- **git (optional)**
+
 To build this app, you will need to install the **[embedded ARM toolchain](https://developer.arm.com/Tools%20and%20Software/GNU%20Toolchain)** and **[Node.js](https://nodejs.org/en/) 18**. The C SDK for Epsilon apps is shipped as an **npm module called [nwlink](https://www.npmjs.com/package/nwlink) v0.0.16**.
 
 ### Debian
