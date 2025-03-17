@@ -28,6 +28,9 @@ Alternatively, for **Windows** you can install everything manually using the ins
 
 For **Linux**, you must install everything manually using the instructions below.
 
+For **MacOS** you must install everything manually using the instructions in the (epsilon c-sample-app github repo)[https://github.com/numworks/epsilon-sample-app-c]
+
+
 ## Build your own app
 
 Inside the project, you'll find **`eadk.h`**, which provides **essential functions** for interacting with the **[calculator](https://en.wikipedia.org/wiki/NumWorks)**. Modify **`main.c`** to implement your **own code**.
