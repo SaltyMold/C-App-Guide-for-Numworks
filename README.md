@@ -6,7 +6,7 @@
     <img alt="License" src="https://img.shields.io/github/license/SaltyMold/C-App-Guide-for-Numworks?style=for-the-badge&color=blue">
     <br>
     <a href="https://github.com/SaltyMold"><img title="Developer" src="https://img.shields.io/badge/Developer-SaltyMold-red?style=flat-square"></a>
-    <img alt="Maintained" src="https://img.shields.io/badge/Maintained-No-blue?style=flat-square">
+    <img alt="Maintained" src="https://img.shields.io/badge/Maintained-Yes-blue?style=flat-square">
     <img alt="Written In" src="https://img.shields.io/badge/Written%20In-C-yellow?style=flat-square">
 </p>
 
