@@ -1,6 +1,6 @@
 <h1 align="center">Guide to Create a C App for the Numworks Calculator</h1>
 <p align="center">
-    <img alt="Version" src="https://img.shields.io/badge/Version-0.0.1-blue?style=for-the-badge&color=blue">
+    <img alt="Version" src="https://img.shields.io/badge/Version-0.0.2-blue?style=for-the-badge&color=blue">
     <img alt="Stars" src="https://img.shields.io/github/stars/SaltyMold/C-App-Guide-for-Numworks?style=for-the-badge&color=magenta">
     <img alt="Forks" src="https://img.shields.io/github/forks/SaltyMold/C-App-Guide-for-Numworks?color=cyan&style=for-the-badge&color=purple">
     <img alt="License" src="https://img.shields.io/github/license/SaltyMold/C-App-Guide-for-Numworks?style=for-the-badge&color=blue">
