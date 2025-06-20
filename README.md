@@ -12,7 +12,7 @@
 
 _This repo is a Guide to help you to Create a C App for the Numworks Calculator. You can also follow my YouTube video for additional guidance._
 
-## Download requirements
+## ⚙️ Download requirements
 
 For **Windows**, download the latest **`MSYS2-Numworks.zip`** file from the **[Releases](https://github.com/SaltyMold/C-App-Guide-for-Numworks/releases) page**. Extract the ZIP, launch `msys2.exe` and close it, navigate to the installation directory with file manager, then go to `/home` and copy everything from the `Default` user into your user directory. Finally reopen the app and run the following commands in MSYS2 :  
 ```sh
@@ -31,12 +31,12 @@ For **Linux**, you must install everything manually using the instructions below
 For **MacOS** you must install everything manually using the instructions in the [epsilon c-sample-app github repo](https://github.com/numworks/epsilon-sample-app-c).
 
 
-## Build your own app
+## 🛠️ Build your own app
 
 Inside the project, you'll find **`eadk.h`**, which provides **essential functions** for interacting with the **[calculator](https://en.wikipedia.org/wiki/NumWorks)**. Modify **`main.c`** to implement your **own code**.
 Additionally, make sure to include an **`icon.png`** with dimensions **55×56 pixels** to serve as your **app’s icon**. Once your modifications are done, link the app with **[nwlink](https://www.npmjs.com/package/nwlink)** and enjoy your app!
 
-## Download requirements manually
+## ⚙️ Download requirements manually
 
 ### Requirements:
 
@@ -114,6 +114,6 @@ make clean && make build
 
 You should now have a **`output/app.nwa` file** that you can distribute! Anyone can now install it on their calculator from the **[NumWorks online uploader](https://my.numworks.com/apps)**.
 
-## Special thanks 
+## 🌟 Special thanks 
 
 I followed the guide from [epsilon-sample-app-c](https://github.com/numworks/epsilon-sample-app-c) to build this app.
