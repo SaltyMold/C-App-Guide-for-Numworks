@@ -1,6 +1,6 @@
 <h1 align="center">Guide to Create a C App for the Numworks Calculator</h1>
 <p align="center">
-    <img alt="Version" src="https://img.shields.io/badge/Version-0.0.2-blue?style=for-the-badge&color=blue">
+    <img alt="Version" src="https://img.shields.io/badge/Version-0.0.1-blue?style=for-the-badge&color=blue">
     <img alt="Stars" src="https://img.shields.io/github/stars/SaltyMold/C-App-Guide-for-Numworks?style=for-the-badge&color=magenta">
     <img alt="Forks" src="https://img.shields.io/github/forks/SaltyMold/C-App-Guide-for-Numworks?color=cyan&style=for-the-badge&color=purple">
     <img alt="License" src="https://img.shields.io/github/license/SaltyMold/C-App-Guide-for-Numworks?style=for-the-badge&color=blue">
@@ -14,21 +14,43 @@ _This repo is a Guide to help you to Create a C App for the Numworks Calculator.
 
 ## ⚙️ Download requirements
 
-For **Windows**, download the latest **`MSYS2-Numworks.zip`** file from the **[Releases](https://github.com/SaltyMold/C-App-Guide-for-Numworks/releases) page**. Extract the ZIP, launch `msys2.exe` and close it, navigate to the installation directory with file manager, then go to `/home` and copy everything from the `Default` user into your user directory. Finally reopen the app and run the following commands in MSYS2 :  
-```sh
-./set-variable
+### Windows
+
+For **Windows**, download the latest **`MSYS2-Numworks.zip`** file from the **[Releases](https://github.com/SaltyMold/C-App-Guide-for-Numworks/releases) page** and extract the ZIP.
+
+#### Setup Instructions
+
+1. Launch `msys2.exe`
+2. Close MSYS2
+3. Move all files from `/home/Default` to `/home/[YourUsername]`
+4. Restart `msys2.exe`
+5. Run the following command:
+```bash
+~/set-variable
+```
+
+#### Build the Project
+
+```bash
 cd numworks
 make clean && make build
-
-# You should now have a output/app.nwa file that you can distribute! Anyone can now install it on their calculator from the NumWorks online uploader : https://my.numworks.com/apps.
 ```
-If you move the **MSYS2** folder to another location, compilation will no longer work. To fix this, run `./set-variable` in `~` inside MSYS2.
 
-Alternatively, for **Windows** you can install everything manually using the instructions below.
+#### Notes
+
+- If you change the MSYS2 installation path, you must re-run `set-variable`.  
+- Do **not** use spaces in the MSYS2 path.
+
+Alternatively, for **Windows**, you can install everything manually using the instructions below.
+
+### Linux
 
 For **Linux**, you must install everything manually using the instructions below.
 
-For **MacOS** you must install everything manually using the instructions in the [epsilon c-sample-app github repo](https://github.com/numworks/epsilon-sample-app-c).
+### MacOS
+
+For **MacOS**, you must install everything manually using the instructions in the [epsilon c-sample-app GitHub repo](https://github.com/numworks/epsilon-sample-app-c).
+
 
 
 ## 🛠️ Build your own app
