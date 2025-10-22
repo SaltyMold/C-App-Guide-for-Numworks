@@ -36,7 +36,7 @@ cd numworks
 make clean && make build
 ```
 
-#### Notes
+#### ⚠️ Notes
 
 - If you change the MSYS2 installation path, you must re-run `set-variable`.  
 - Do **not** use spaces in the MSYS2 path.
