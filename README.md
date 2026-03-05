@@ -10,7 +10,7 @@
     <img alt="Written In" src="https://img.shields.io/badge/Written%20In-C-yellow?style=flat-square">
 </p>
 
-_This repo is a Guide to help you to Create a C App for the Numworks Calculator. You can also follow my YouTube video for additional guidance._
+_This repo is a Guide to help you to Create a C App for the Numworks Calculator._
 
 ## ⚙️ Download requirements
 
